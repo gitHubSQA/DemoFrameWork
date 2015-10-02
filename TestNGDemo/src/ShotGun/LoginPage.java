@@ -24,7 +24,7 @@ public class LoginPage {
 	
 	//Locator: Sign In button
 	//@FindBy(id="commit")
-	@FindBy(xpath=".//*[@id='ext-gen7']/div[2]/div[3]/form/div[3]/inputSIGN IN")
+	@FindBy(name="commit")
 	public WebElement btnSignIn;
 	
 	

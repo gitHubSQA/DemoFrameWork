@@ -30,7 +30,11 @@ public class Test_Sign_In_Pass {
 	pagelogin.clickSignIn();
 	Assert.assertEquals(true, true);	
 	
-
+	
+//	@AfterMethod
+//	public void closeBrowser(){
+//		common.closeBrowser(driver);
+//	}
 	
   }
 }
